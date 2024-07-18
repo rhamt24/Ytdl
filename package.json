@@ -1,0 +1,26 @@
+{
+  "name": "yta-api",
+  "version": "1.0.0",
+  "description": "API to download audio from YouTube using ytdl-core and ffmpeg",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "youtube",
+    "audio",
+    "download",
+    "api",
+    "ytdl-core",
+    "ffmpeg"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "ytdl-core": "^5.0.0",
+    "fluent-ffmpeg": "^2.1.2",
+    "ffmpeg-static": "^4.4.0",
+    "uuid": "^8.3.2"
+  }
+}
